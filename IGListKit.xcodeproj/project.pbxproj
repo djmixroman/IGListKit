@@ -371,6 +371,10 @@
 		88DF89881E010F5C00B1B9B4 /* IGListDiffResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AC6311DDE4C19002FCE5D /* IGListDiffResultTests.m */; };
 		88DF89891E010F6500B1B9B4 /* IGListDiffSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88144EE61D870EDC007C7F66 /* IGListDiffSwiftTests.swift */; };
 		88DF898A1E010F7000B1B9B4 /* IGListDiffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88144EE81D870EDC007C7F66 /* IGListDiffTests.m */; };
+		8FF863DF20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF863DD20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.h */; };
+		8FF863E020F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF863DE20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m */; };
+		8FF863E120F7833B00A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF863DE20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m */; };
+		8FF863E220F7833C00A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF863DE20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m */; };
 		917E89881E800EE70015F934 /* IGListCollectionViewLayoutInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 917E89871E800EE70015F934 /* IGListCollectionViewLayoutInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA5F484B1E8E9D7000DAE6DA /* IGListAdapter+UICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5F48491E8E9D7000DAE6DA /* IGListAdapter+UICollectionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA5F484C1E8E9D7000DAE6DA /* IGListAdapter+UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F484A1E8E9D7000DAE6DA /* IGListAdapter+UICollectionView.m */; };
@@ -625,6 +629,8 @@
 		887D0B3F1D870D7F009E01F7 /* IGListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		887D0B571D870E1E009E01F7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88DF897C1E010E6A00B1B9B4 /* IGListKit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IGListKit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF863DD20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IGListBindingSectionControllerConfigurator.h; path = Source/IGListBindingSectionControllerConfigurator.h; sourceTree = SOURCE_ROOT; };
+		8FF863DE20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IGListBindingSectionControllerConfigurator.m; path = Source/IGListBindingSectionControllerConfigurator.m; sourceTree = SOURCE_ROOT; };
 		917E89871E800EE70015F934 /* IGListCollectionViewLayoutInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGListCollectionViewLayoutInternal.h; sourceTree = "<group>"; };
 		9574C58371B7A46F62E9AC24 /* Pods-IGListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitTests/Pods-IGListKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA8726D7FF3608E20E9F7EC6 /* Pods-IGListKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitTests/Pods-IGListKitTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -707,6 +713,8 @@
 				298DD9C11E3ACF4800F76F50 /* IGListBindable.h */,
 				298DD9C51E3ACFE300F76F50 /* IGListBindingSectionController.h */,
 				298DD9C61E3ACFE300F76F50 /* IGListBindingSectionController.m */,
+				8FF863DD20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.h */,
+				8FF863DE20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m */,
 				2926586B1E75E01A0041B56D /* IGListBindingSectionControllerDataSource.h */,
 				2926586E1E75E0830041B56D /* IGListBindingSectionControllerSelectionDelegate.h */,
 				0B3B92A11E08D7F5008390ED /* IGListCollectionContext.h */,
@@ -1100,6 +1108,7 @@
 				0B3B93161E08D7F5008390ED /* IGListSectionController.h in Headers */,
 				0B3B93441E08D7F5008390ED /* UICollectionView+IGListBatchUpdateData.h in Headers */,
 				294CDE5F1F98E3A7002CF6E4 /* IGListAdapterUpdateListener.h in Headers */,
+				8FF863DF20F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.h in Headers */,
 				293841B1202B4F7200484901 /* UICollectionViewLayout+InteractiveReordering.h in Headers */,
 				290DF3741E931B57009FE456 /* IGListDebuggingUtilities.h in Headers */,
 				29DAA7A1201FBD880029277A /* NSNumber+IGListDiffable.h in Headers */,
@@ -1218,7 +1227,6 @@
 				885FE1D91DC51A0D009CE2B4 /* Frameworks */,
 				885FE1DA1DC51A0D009CE2B4 /* Resources */,
 				1C5FA70E034CFACCF4FD0854 /* [CP] Embed Pods Frameworks */,
-				50676A19DB6B3CECF9C54BC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1257,7 +1265,6 @@
 				887D0B3C1D870D7F009E01F7 /* Frameworks */,
 				887D0B3D1D870D7F009E01F7 /* Resources */,
 				21587AA7E74BD876C049E30D /* [CP] Embed Pods Frameworks */,
-				AC15CB0B9881429871447055 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1451,21 +1458,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitTests/Pods-IGListKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50676A19DB6B3CECF9C54BC9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKit-tvOSTests/Pods-IGListKit-tvOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9B12CED6C1A4A7B9137C8C52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1500,21 +1492,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC15CB0B9881429871447055 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitTests/Pods-IGListKitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1556,6 +1533,7 @@
 				0B3B93191E08D7F5008390ED /* IGListSectionController.m in Sources */,
 				293841B4202B4F8C00484901 /* UICollectionViewLayout+InteractiveReordering.m in Sources */,
 				0B3B93131E08D7F5008390ED /* IGListReloadDataUpdater.m in Sources */,
+				8FF863E120F7833B00A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */,
 				0B3B93231E08D7F5008390ED /* IGListStackedSectionController.m in Sources */,
 				294652B41EA927440063BDD9 /* UICollectionView+DebugDescription.m in Sources */,
 				298DD9CB1E3ACFE300F76F50 /* IGListBindingSectionController.m in Sources */,
@@ -1665,6 +1643,7 @@
 				0B3B93181E08D7F5008390ED /* IGListSectionController.m in Sources */,
 				293841B2202B4F7200484901 /* UICollectionViewLayout+InteractiveReordering.m in Sources */,
 				290DF3611E930D05009FE456 /* IGListBatchUpdateData+DebugDescription.m in Sources */,
+				8FF863E020F7833300A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */,
 				0B3B93121E08D7F5008390ED /* IGListReloadDataUpdater.m in Sources */,
 				29DAA790201FBD880029277A /* IGListBatchUpdateData.mm in Sources */,
 				0B3B93221E08D7F5008390ED /* IGListStackedSectionController.m in Sources */,
@@ -1761,6 +1740,7 @@
 				8837972B202236FF00B94676 /* NSNumber+IGListDiffable.m in Sources */,
 				883797272022366000B94676 /* IGListMoveIndex.m in Sources */,
 				883797252022365700B94676 /* IGListIndexSetResult.m in Sources */,
+				8FF863E220F7833C00A7EFD1 /* IGListBindingSectionControllerConfigurator.m in Sources */,
 				883797212022361F00B94676 /* IGListDiff.mm in Sources */,
 				883797232022364900B94676 /* IGListIndexPathResult.m in Sources */,
 				8837971F2022360700B94676 /* IGListBatchUpdateData.mm in Sources */,
